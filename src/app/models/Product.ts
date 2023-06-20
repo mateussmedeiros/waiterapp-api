@@ -24,11 +24,11 @@ export const Product = model(
       type: [
         {
           name: {
-            type: Number,
+            type: String,
             required: true
           },
           icon: {
-            type: Number,
+            type: String,
             required: true
           }
         }
